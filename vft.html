@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="/VFT/app1/css/Pics/33nBg.ico">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>VENUS</title>
+
+
+<style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap');
+    
+    @import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap');
+    
+    @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+    @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+
+    
+header {
+  height: 99vh;
+}
+
+.container {
+  /* hide fixed overflow contents */
+  clip: rect(0, auto, auto, 0);
+
+  /* does not work if overflow = visible */
+  overflow: hidden;
+
+  /* only works with absolute positioning */
+  position: absolute;
+
+  /* Make sure containers are full-width and height */
+  height: 100vh;
+  left: 0;
+  width: 100%;
+  
+  
+  /* safari hck */
+  -webkit-mask-image: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+}
+
+.container_solid {
+
+    /* position this container at the top of its parent element */
+  top: 0;
+
+}
+
+.title_wrapper {
+  position: fixed;
+  display: block;  
+  width: auto;
+  /* center the text wrapper vertically */
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+
+.title_wrapper h1 {
+  text-align: ;
+  font-size: 6.9rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Nanum Gothic', sans-serif;
+  color: white;
+
+}
+
+
+
+.container_solid .title_wrapper h1 {
+  background-color: white;
+  
+  /* clip the text is possible */
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  
+  /* fallback text color */
+  color: white;
+}
+
+.container_image {
+background-color: black;
+  
+  /* position the second container below the first container */
+  top: 100vh;
+}
+
+.container_image .title_wrapper h1 {
+}
+
+h2{
+    font-size: 0.69em;
+}
+    
+
+
+body {
+    background: black;
+    background-image: url(/VFT/app1/css/Pics/vft.jpg);
+    background-repeat: no-repeat;
+    background-size: 50% 30%;
+    background-position: center;
+    color: white;
+    height: 50%;
+    width: 100%;
+}
+
+section {
+  text-align: center;
+  font-size: 3.3rem;  
+}
+
+
+
+.container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.content
+{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    font-size: 1.33em;
+    font-family: VT323;
+    
+}
+
+
+
+
+
+
+body { background-color: black; }
+
+.footer-social-links{
+    font-size: 14px;
+  text-align: center;
+  margin-top: 3%;
+}
+.footer-social-links a{
+    width: 33px;
+    height: 33px;
+    line-height: 33px !important;
+    position: relative;
+    margin: 0 5px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    
+    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
+    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+}
+.footer-social-links a i,
+.footer-social-links a span{
+    position: relative;
+    top: 0;
+    left: 1px; 
+}
+.footer-social-links a:before{
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid white;
+    
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    
+    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
+    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    
+}
+.footer-social-links a:hover{
+    color: white;
+}
+.footer-social-links a:hover:before{
+    background: #333;
+}
+
+
+
+
+.email{
+    text-decoration: none;
+    color: white;
+    font-size: 0.65em;
+}
+
+
+
+
+
+
+</style>
+</head>
+<header>
+
+    <!-- First container -->
+    <div class="container container_solid" >
+      <div class="title_wrapper">
+        <h1>Venus</h1>
+      </div>
+    </div>
+  
+    <!-- Second container -->
+    <div class="container container_image" aria-hidden="true"> 
+      <div class="title_wrapper">
+        <h1 href="./">Venus</h1>
+      </div>
+    </div>
+  
+  </header>
+  
+
+
+<body>
+
+</body>
+
+<section>
+
+
+
+    <div class="container">
+        <div class="content">
+          <a class="email" href="mailto:vft.venus@gmail.com">vft.venus@gmail.com</a>
+
+          
+          <div class="footer-social-links">
+  
+        <a href="https://instagram.com/venus_fly_trap.official" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+        
+        <a href="https://twitter.com/vft369" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+       
+        <a href="https://za.linkedin.com/in/jayden33" title="LinkedIn+" target="_blank"><i class="fa fa-linkedin"></i></a>
+        
+      </div>
+           
+          </div>
+  </section>
+
+
+</html>

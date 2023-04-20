@@ -1,0 +1,29 @@
+/* Width */
+::-webkit-scrollbar {
+    width: 9px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: white;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: black;
+  }
+  
+  /* Hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: white;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap');
+    
+  @import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+
+  
